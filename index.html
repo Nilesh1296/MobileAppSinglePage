@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+
+
+
+  <!-- Angular Files -->
+
+  <link rel="stylesheet" href="bower_components/angular-material/angular-material.css">
+ <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <script src="bower_components/angular/angular.min.js"></script>
+  <script src="bower_components/angular-messages/angular-messages.min.js" charset="utf-8"></script>
+  <script src="bower_components/angular-animate/angular-animate.min.js" charset="utf-8"></script>
+  <script src="bower_components/angular-aria/angular-aria.min.js" charset="utf-8"></script>
+  <script src="bower_components/angular-material/angular-material.min.js" charset="utf-8"></script>
+
+  <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js" charset="utf-8"></script>
+
+<!-- config -->
+  <script src="app.js" charset="utf-8"></script>
+  <script src="Routing/UniqueFilter.js" charset="utf-8"></script>
+  <!--controller files -->
+  <script src="Controller/loginController.js"></script>
+  <script src="Controller/homeController.js"></script>
+  <script src="directive/navbar.js"></script>
+  <script src="directive/sidebar.js"></script>
+  <script src="products.json"></script>
+  <script src="Services/Jsonreader.js"></script>
+ <script src="Controller/dashboardcontroller.js" charset="utf-8"></script>
+
+
+  </head>
+  <body ng-app="myApp">
+      <ui-view>
+      </ui-view>
+    </body>
+</html>
